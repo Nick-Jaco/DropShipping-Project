@@ -2,8 +2,6 @@
 
 A small-scale dropshipping website built with Flask, designed to validate an end-to-end e-commerce workflow using free-tier services before focusing on scaling.
 
----
-
 ## Overview
 
 This project implements a complete dropshipping pipeline, including product display, secure payments, order storage, supplier fulfillment, and customer communication.
@@ -18,8 +16,6 @@ The system is designed so that:
 - Orders are automatically forwarded to a fulfillment provider
 - Tracking and order status are stored and communicated back to the customer
 - Manual intervention is minimized but still possible where brand experience matters
-
----
 
 ## High-Level Architecture
 
@@ -46,8 +42,6 @@ The system is designed so that:
 - Gmail SMTP (customer communication)
 - Let’s Encrypt (HTTPS / SSL)
 
----
-
 ## Tech Stack
 
 - **Backend:** Flask (Python)
@@ -58,8 +52,6 @@ The system is designed so that:
 - **Email:** Gmail SMTP
 - **Security:** Let’s Encrypt SSL
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript
-
----
 
 ## Core Workflow
 
@@ -79,8 +71,6 @@ The system is designed so that:
 9. Tracking number is returned and stored
 10. Customer is emailed tracking details automatically
 
----
-
 ## Customer Support & Issues
 
 ### Payment Issues
@@ -97,15 +87,11 @@ The system is designed so that:
   - Return
 - Order status updates are synced and emailed to the customer
 
----
-
 ## Inventory Handling
 
 - CJ Dropshipping inventory can be checked programmatically
 - Products can be automatically disabled when out of stock
 - No daily manual inventory checks required
-
----
 
 ## Running Locally
 
