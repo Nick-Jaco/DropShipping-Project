@@ -1,0 +1,10 @@
+Flask>=2.3,<3.0
+Flask-SQLAlchemy>=3.1,<4.0
+SQLAlchemy>=2.0,<3.0
+
+python-dotenv>=1.0,<2.0
+requests>=2.31,<3.0
+
+squareup>=39.0,<40.0
+
+gunicorn>=21.2,<22.0
